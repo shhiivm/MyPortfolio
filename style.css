@@ -1,17 +1,18 @@
-/* Reset and base styles
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
   scroll-behavior: smooth;
 }
+
+/*
 
 a {
   color: #0077cc;
