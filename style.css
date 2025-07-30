@@ -12,137 +12,42 @@ body {
   scroll-behavior: smooth;
 }
 
-/*
-
-a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #005fa3;
-}
-
-/* Header and Nav */
-/* header {
-  background: #fff;
-  padding: 20px 40px;
+.head-bar {
+  background-color: #e4eced;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #ddd;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
-  
-
-header h1 {
-  font-size: 24px;
-  color: #111;
-}
-
-nav a {
+.head-bar h1 {
+  color: rgb(26, 18, 6);
   margin-left: 20px;
-  font-weight: 500;
+}
+.nav-bar {
+  padding: 35px;
 }
 
-/* Hero Section */
-/* #hero {
-  padding: 100px 40px;
-  text-align: center;
-  background-color: #0077cc;
-  color: #fff;
+.nav-bar a {
+  color: #333;
+  text-decoration: none;
+  padding: 20px 2px 20px 2px;
+  margin: 0 20px 0 20px;
+  cursor: pointer;
+}
+.nav-bar a:hover {
+  text-decoration: underline;
+  color: rgb(51, 0, 255);
 }
 
-#hero h2 {
-  font-size: 36px;
-  margin-bottom: 10px;
-}
-
-#hero p {
-  font-size: 18px;
-} */
-
-/* Section Styling */
-/* section {
-  padding: 60px 40px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-section h2 {
-  font-size: 28px;
-  margin-bottom: 20px;
-  color: #222;
-} */
-
-/* About and Skills */
-/* #about p {
-  font-size: 16px;
-}
-
-#skills ul {
-  list-style: none;
+.container-body {
+  margin: 0;
+  background-color: aquamarine;
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
-#skills li {
-  background: #e0e0e0;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: 500;
-} */
-
-/* Projects Section */
-/* .project {
-  background: #fff;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-left: 5px solid #0077cc;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  border-radius: 6px;
-} 
-
-.project h3 {
-  margin-bottom: 10px;
-}
-
-.project a {
-  display: inline-block;
-  margin-top: 10px;
-  font-size: 14px;
-} */
-
-/* Contact */
-/* #contact p {
-  font-size: 16px;
-  margin-bottom: 10px;
-} */
-
-/* Footer 
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #222;
+.footer{
+  background-color: black;
   color: #fff;
-  font-size: 14px;
+  display: flex;
+  justify-content: center;
 }
-
-/* Responsive Design 
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  nav {
-    margin-top: 10px;
-  }
-
-  #skills ul {
-    flex-direction: column;
-  }
-} */
